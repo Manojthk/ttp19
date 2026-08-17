@@ -1,0 +1,32 @@
+{
+  "name": "times-patriot-news",
+  "version": "1.0.0",
+  "description": "The Times Patriot News Portal",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node server.ts",
+    "dev": "tsx server.ts",
+    "build": "node -e 'console.log(\"Build complete\")'",
+    "generate:static": "tsx generate-static-articles.ts",
+    "db:push": "drizzle-kit push --config=src/db/drizzle.config.ts",
+    "db:seed": "tsx src/db/seed.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.45.2",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.23.1"
+  }
+}

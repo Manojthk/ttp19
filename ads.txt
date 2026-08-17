@@ -1,0 +1,5 @@
+# ads.txt
+# Replace the placeholder publisher ID below with your actual Google AdSense Publisher ID (pub-XXXXXXXXXXXXXXXX)
+# Example: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+google.com, pub-9398407220627949, DIRECT, f08c47fec0942fa0
